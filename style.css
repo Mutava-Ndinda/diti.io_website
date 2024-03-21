@@ -1,0 +1,220 @@
+#navbar{
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+    
+}
+#improve{
+    display: flex;
+    gap: 20px;
+    padding-bottom: 50px;
+}
+#companies{
+    display: flex;
+    gap: 20px;
+}
+#products{
+    display: flex;
+    gap: 70px;
+    padding-bottom: 50px;
+}
+#numbers{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    margin-right: 70%;
+}
+#help{
+    display: flex;
+    gap: 70px;
+}
+#clients{
+    display: flex;
+    gap: 80px;
+    padding-bottom: 50px;
+}
+#users{
+    display: flex;
+    gap: 30%;
+}
+#footer{
+    display: flex;
+    gap: 70px;
+    color: white;
+    background-color: rgb(15, 15, 56);
+}
+.apple{
+    border-radius: 60px;
+    color: white;
+    background-color: rgb(15, 15, 56);
+    width: 50%;
+    height: 30px;
+}
+.play{
+    border-radius: 60px;
+    width: 50%;
+    height: 30px;
+}
+#log{
+    border-radius: 50px;
+    width: 60%;
+    height: 30px;
+}
+.sign{
+    border-radius: 50px;
+    width: 60%;
+    height: 30px;
+    color: white;
+    background-color: lightcoral;
+}
+#sup{
+    border-radius: 30px;
+    width: 90px;
+    height: 30px;
+    color: white;
+    background-color: lightcoral; 
+}
+.red{
+    color: red;
+    text-underline-position: below;
+}
+button{
+    padding-bottom: 5;
+}
+#interface{
+    border: solid lightcoral;
+}
+.nums{
+    font-size: 24px;
+    font-weight: 700;
+}
+#img1{
+    transform:rotate(-10deg);
+    width: 70%;
+    margin-left: 70px;
+    padding-top: 10%;
+}
+#okay{
+    display: flex;
+}
+#setting{
+    transform: rotate(10deg);
+}
+#make{
+    transform: rotate(10deg);
+}
+#p{
+    font-size: 24px;
+    font-weight: 700;
+}
+#lastp{
+    width: 160%;
+
+}
+#icons{
+    display: flex;
+    gap: 10px;
+}
+#foot{
+    display: flex;
+    color: white;
+    background-color: black;
+    gap:20% ;    
+}
+body{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+@media screen and (min-width:300px)and (max-width:768px) {
+    #navbar{
+        list-style-type: none;
+        display: flex;
+        gap: 5px;
+        font-size: 12px;
+        
+    } 
+    #improve{
+        display: block;
+        gap: 20px;
+        padding-bottom: 50px;
+    } 
+    #companies{
+        display: block;
+        gap: 20px;
+    }
+    #products{
+        display: block;
+        gap: 70px;
+        padding-bottom: 50px;
+        width: 90%;
+       
+    }
+    #okay{
+        display: block;
+    }
+    #help{
+        display: block;
+        gap: 70px;
+    }
+    #clients{
+        display: block;
+        gap: 80px;
+        padding-bottom: 50px;
+    }
+    #users{
+        display: block;
+        gap: 30%;
+    }
+    #footer{
+        display: block;
+        gap: 70px;
+        color: white;
+        background-color: rgb(15, 15, 56);   
+    }
+    .apple{
+        border-radius: 30px;
+        color: white;
+        background-color: rgb(15, 15, 56);
+        width: 30%;
+        height: 30px;
+    }
+    .play{
+        border-radius: 60px;
+        width: 30%;
+        height: 30px;
+    }
+    #lastp{
+        width: 60%;
+    
+    }
+    #foot{
+        display: block;
+        color: white;
+        background-color: black;
+        gap:20% ;    
+    }
+    #accp{
+        width: 90%;
+    }
+    #sup{
+        border-radius: 30px;
+        width: 30px;
+        height: 30px;
+        color: white;
+        background-color: lightcoral; 
+        font-size: 9px;
+    }
+    #login{
+        font-size: 9px;
+        width: 30px;
+    }
+    body{
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    #img1{
+        transform:rotate(-10deg);
+        width: 50%;
+        margin-left: 70px;
+        padding-top: 10%;
+    }
+}
